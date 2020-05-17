@@ -65,6 +65,7 @@ from . import behavior
 from . import conn
 from . import event
 from . import exceptions
+from . import faces
 from . import lights
 from . import nav_memory_map
 from . import objects
@@ -81,6 +82,6 @@ from .run import *
 
 __all__ = ['logger', 'logger_protocol',
            'action', 'anim', 'annotate', 'behavior', 'conn', 'event',
-           'exceptions', 'lights', 'objects', 'oled_face', 'nav_memory_map',
+           'exceptions', 'faces', 'lights', 'objects', 'oled_face', 'nav_memory_map',
            'robot', 'robot_alignment', 'run', 'util', 'world'] + \
           (run.__all__ + exceptions.__all__)
